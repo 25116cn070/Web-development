@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GL BAJAJ LIBRARY - Registration</title>
+</head>
+<style>
+    body{
+        background-color: rgb(140, 67, 67);
+    }
+</style>
+
+<body>
+
+    <h2>Student Registration Form</h2>
+
+    <form action="#" method="post">
+
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        <br><br>
+
+        <label for="roll">Roll Number:</label><br>
+        <input type="text" id="roll" name="roll" placeholder="Enter your roll number" required>
+        <br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <br><br>
+
+        <label for="phone">Mobile Number:</label><br>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your mobile number" required>
+        <br><br>
+
+        <label for="branch">Branch:</label><br>
+        <select id="branch" name="branch" required>
+            <option value="">Select Branch</option>
+            <option value="CSE">CSE</option>
+            <option value="ECE">ECE</option>
+            <option value="Mechanical">Mechanical</option>
+            <option value="Civil">Civil</option>
+        </select>
+        <br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" placeholder="Enter password" required>
+        <br><br>
+
+        <label for="confirm">Confirm Password:</label><br>
+        <input type="password" id="confirm" name="confirm" placeholder="Confirm password" required>
+        <br><br>
+
+        <input type="submit" value="Register">
+        <input type="reset" value="Reset">
+
+        <p>Already registered? <a href="login.html">Login here</a></p>
+
+    </form>
+
+</body>
+
+</html>
